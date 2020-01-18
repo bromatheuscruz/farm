@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db_roomator:
+    image: mysql:5.7
+    restart: on-failure
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: roomator
+      MYSQL_DATABASE: roomator
+      MYSQL_USER: roomator
+      MYSQL_PASSWORD: roomator
