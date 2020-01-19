@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -64,8 +64,11 @@ public class AnimalController {
         // performs calculation to take the average of each list of animals and add an object
         // to averageWeightList object
         animalsByType.forEach((animalType, animalList) -> {
+            animalList.forEach(x -> System.out.println(x.getWeight()));
             OptionalDouble optionalDouble =
-                    animalList.stream().mapToDouble(x -> x.getWeight().doubleValue()).average();
+                    animalList.stream()
+                            .mapToDouble(x -> x.getWeight() != null ? x.getWeight().doubleValue() : 0.00)
+                            .average();
 
             double average = 0.00;
 

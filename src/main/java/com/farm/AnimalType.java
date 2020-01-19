@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 import java.math.BigDecimal;
 

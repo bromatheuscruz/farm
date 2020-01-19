@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

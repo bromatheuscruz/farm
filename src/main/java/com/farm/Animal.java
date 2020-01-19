@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -68,5 +68,9 @@ public class Animal {
      */
     public boolean canBeSold() {
         return this.getWeight().doubleValue() >= this.getType().getNecessaryToSoldWeight().doubleValue();
+    }
+
+    public boolean isValid() {
+        return !this.type.equals(null) && !this.weight.equals(null);
     }
 }

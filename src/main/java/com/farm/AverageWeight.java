@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 import java.math.BigDecimal;
 
@@ -26,11 +26,11 @@ public class AverageWeight {
         this.animalType = animalType;
     }
 
-    public BigDecimal getAverageWeigh() {
+    public BigDecimal getAverageWeight() {
         return averageWeight;
     }
 
-    public void setAverageWeigh(BigDecimal averageWeigh) {
+    public void setAverageWeight(BigDecimal averageWeigh) {
         this.averageWeight = averageWeigh;
     }
 }

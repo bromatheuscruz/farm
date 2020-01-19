@@ -1,13 +1,13 @@
-package com.roomator;
+package com.farm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RoomatorApplication {
+public class FarmApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RoomatorApplication.class, args);
+		SpringApplication.run(FarmApplication.class, args);
 	}
 
 }

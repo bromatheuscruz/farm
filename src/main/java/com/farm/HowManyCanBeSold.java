@@ -1,4 +1,4 @@
-package com.roomator;
+package com.farm;
 
 /**
  * Object used to transfer data, do not have business rule

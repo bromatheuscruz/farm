@@ -1,10 +1,10 @@
-package com.roomator;
+package com.farm;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RoomatorApplicationTests {
+class FarmApplicationTests {
 
 	@Test
 	void contextLoads() {
